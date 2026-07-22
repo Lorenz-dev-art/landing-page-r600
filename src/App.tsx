@@ -83,11 +83,11 @@ export default function App() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="w-full max-w-4xl mx-auto mt-20 relative px-6"
+          className="w-full max-w-[1100px] mx-auto mt-20 relative px-6"
         >
-          <div className="aspect-[16/9] bg-black rounded-3xl border border-neutral-800 overflow-hidden relative flex items-center justify-center group shadow-2xl shadow-blue-900/20">
-             <div className="absolute inset-0 bg-contain bg-no-repeat bg-center group-hover:scale-105 transition-all duration-1000" style={{ backgroundImage: `url(${bikeImage})` }}></div>
-             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+          <div className="aspect-[16/9] md:aspect-[21/9] bg-white rounded-3xl border border-neutral-800 overflow-hidden relative flex items-center justify-center group shadow-2xl shadow-blue-900/20">
+             <div className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-all duration-1000" style={{ backgroundImage: `url(${bikeImage})` }}></div>
+             <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/80 via-transparent to-transparent"></div>
              <h2 className="text-4xl md:text-8xl font-black tracking-tighter text-white absolute bottom-8 left-8 md:bottom-12 md:left-12 z-10 drop-shadow-xl">R600</h2>
           </div>
         </motion.div>
