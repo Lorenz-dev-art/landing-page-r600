@@ -1,0 +1,6 @@
+{
+  "name": "Rain Storm R600 - Moto Elétrica",
+  "description": "Página de conversão e especificações técnicas da moto elétrica Rain Storm R600.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
